@@ -3,6 +3,10 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+hr {
+    margin: 2rem 0rem;
+}
 /** container **/
 .container {
     padding-left: 1rem;
@@ -15,5 +19,21 @@ body {
 }
 
 .container-fluid {
-    
+
+}
+/** Link **/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link {
+    background-color:#1D4ED8;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.secondary-link {
+    color:#1D4ED8;
+    border-radius: 0.5rem;
+    border: 1px solid;
 }
