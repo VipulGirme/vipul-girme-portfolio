@@ -16,10 +16,11 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    background-color: coral;
 }
 
 .container-fluid {
-
+    background-color: coral;
 }
 /** Link **/
 .link{
@@ -36,4 +37,13 @@ hr {
     color:#1D4ED8;
     border-radius: 0.5rem;
     border: 1px solid;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
