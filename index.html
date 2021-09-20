@@ -1,100 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vipul Girme</title>
-   
-    <link href="styles.css" rel ="stylesheet"/>
+    <title>Home | Vipul Girme</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <h3>Hi ! I am Vipul !</h3>
-    <h1>I work for Dassault Systems!</h1>
-    <!-- <h1 style="color: red;">I work for TCS!</h1> -->
-    <p>I am attending neogcamp level zero to make a library</p>
-    <hr>
-    <h2>
-        @typography
-    </h2>
-    <h1>This is h1 tag</h1>
-    <h2>This is header 2</h2>
-    <p>This is para tag</p>
-    <p>This para will have a <strong>bold</strong> text.</p>
-    <small>This is small</small>
-
-    <hr>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container container-fluid">This a fluid container which will go full width</div>
-
-    <h3>centered container</h3>
-    <div class="container container-center">This is a centered container and it will go to specified width</div>
-
-    <hr>
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary Link</a>
-    <a class = "link secondary-link" href="/">Secondary Link</a>
-
-    <hr>
-    <h2>@Lists</h2>
-
-    <h3>Unordered List</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Item One</li>
-        <li class="list-item-inline">Item Two</li>
-        <li class="list-item-inline"> Item Three</li>
-    </ul>
-
-    <h3>Oredered List</h3>
-    <ol class="">
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-    
-
-    <hr>
-    <h2>@nav</h2>
-    <nav class="navigation container"> 
+    <nav class="navigation container">
         <div class="nav-brand">
-            iamBrand</div>
-            <ul class="list-non-bullet nav-pills">
-                <li class="list-item-inline">
-                    <a class="link link-active" href="/">Home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class = "link" href="/">Projects</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class = "link" href="/">Info</a>
-                </li>
-            </ul>
-
+            IamDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Blogs</a>
+            </li>
+        </ul>
         </div>
     </nav>
-
-
-    <hr>
-    <h2>@header</h2>
-
     <header class="hero">
-        <img class="hero-image" src="images/Innovation _Monochromatic.png"/>
-        <h1 class="hero-heading">Adarsha Balika the <span class="heading-inverted"> web developer</span></h1>
+        <img class="hero-image" src="/images/updated.svg" />
+        <h1 class="hero-heading">Vipul Girme the <span class="heading-inverted"> web developer</span></h1>
     </header>
-    <hr>
-    <h2>
-        @Assignment
-    </h2>
-    <button class="button positive" type="button">+</button>
-    <button class="button negative" type="button">-</button>
-    <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>Social One</li>
-            <li>Social two</li>
-        </ul>
-    </footer>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>Technologies</h3>
+            <p> I am familiar with Java, Spring Boot. Worked mostly on Java 8 version. Using Spring Boot created Rest
+                API's.
+                Along with Spring Boot, for front-end worked on Angular 8+ version using Bootstrap. Also the other
+                technologies which I have worked on are
+                HTML, CSS, Javascript, Git.
+            </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+            <h3>Projects</h3>
+            <p>Mostly all my projects have been private, but I would still like to showcase the other projects I have
+                worked on.</p>
+            <a class="link primary-link" href="projects.html">See Projects</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>Blogs</h3>
+            <p>I will soon start writing blogs. Please bear with me.</p>
+            <a class="link primary-link" href="blogs.html">See Blogs</a>
+        </div>
+    </section>
 </body>
+<footer class="footer">
+    <div class="footer-header">More Info about me and my work</div>
+    <ul class="list-non-bullet social-links">
+        <li class="list-item-inline"><a target="_blank" class="link" href="https://www.linkedin.com/in/vipul-girme-a90a90138">Linkedin</a></li>
+        <li class="list-item-inline"><a target="_blank" class="link" href="https://github.com/VipulGirme">Github</a></li>
+        <li class="list-item-inline"><a target="_blank" class="link" href="https://leetcode.com/VipulRGirme/">LeetCode</a></li>
+    </ul>
+</footer>
+
 </html>
